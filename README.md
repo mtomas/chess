@@ -17,6 +17,7 @@ To get an answer of the total number of unique configurations for a 7×7 board w
 Build and run program by running following command in terminal:
 
     $ sbt run
+In order to change size of the board or set of input pieces you need to edit variables in file [ChessGame](https://github.com/mtomas/chess/blob/master/src/main/scala/io/scalac/mtomas/chesstest/ChessGame.scala#L17)
 
 Result for 7×7 board with 2 Kings, 2 Queens, 2 Bishops and 1 Knight is 3 063 828 valid configurations.
 
